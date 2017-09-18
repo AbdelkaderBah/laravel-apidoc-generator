@@ -436,7 +436,7 @@ abstract class AbstractGenerator
         }
 
         if ($attributeData['value'] === '') {
-            $attributeData['value'] = $faker->word;
+            $attributeData['value'] = 'default';
         }
 
         if (is_null($attributeData['type'])) {
